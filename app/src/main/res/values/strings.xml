@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">capstone</string>
+    <string name="lanjut">CONTINUE</string>
+    <string name="new_game">NEW GAME</string>
 </resources>
