@@ -1,10 +1,10 @@
 package com.emiliaasy.androidintermediate.capstone.subcategory
 
-import android.os.Build
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.WindowInsets
-import android.view.WindowManager
+import com.emiliaasy.androidintermediate.capstone.MainActivity
+import com.emiliaasy.androidintermediate.capstone.StageActivity
 import com.emiliaasy.androidintermediate.capstone.databinding.ActivityHouseBinding
 
 class HouseActivity : AppCompatActivity() {
@@ -15,19 +15,18 @@ class HouseActivity : AppCompatActivity() {
         binding = ActivityHouseBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        setupView()
+        supportActionBar?.hide()
+
+        setupActions()
     }
 
-    private fun setupView() {
-        @Suppress("DEPRECATION")
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
-            window.insetsController?.hide(WindowInsets.Type.statusBars())
-        } else {
-            window.setFlags(
-                WindowManager.LayoutParams.FLAG_FULLSCREEN,
-                WindowManager.LayoutParams.FLAG_FULLSCREEN
-            )
+    private fun setupActions() {
+        binding.livingRoom.setOnClickListener {
+            startActivity(Intent(this, StageActivity::class.java))
         }
-        supportActionBar?.hide()
+
+        binding.bedRoom.setOnClickListener {
+            startActivity(Intent(this, StageActivity::class.java))
+        }
     }
 }

@@ -9,4 +9,7 @@
     <string name="hewan_darat">Hewan Darat</string>
     <string name="hewan_air">Hewan Air</string>
     <string name="serangga">Serangga</string>
+    <string name="stage_1">STAGE 1</string>
+    <string name="stage_2">STAGE 2</string>
+    <string name="stage_3">STAGE 3</string>
 </resources>
