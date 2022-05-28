@@ -2,4 +2,11 @@
     <string name="app_name">capstone</string>
     <string name="lanjut">CONTINUE</string>
     <string name="new_game">NEW GAME</string>
+    <string name="rumah">RUMAH</string>
+    <string name="hewan">HEWAN</string>
+    <string name="ruang_tamu">Ruang Tamu</string>
+    <string name="kamar_tidur">Kamar Tidur</string>
+    <string name="hewan_darat">Hewan Darat</string>
+    <string name="hewan_air">Hewan Air</string>
+    <string name="serangga">Serangga</string>
 </resources>

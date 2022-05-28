@@ -9,8 +9,11 @@
         <entry key="..\:/Users/muhaz/AndroidStudioProjects/capstone/app/src/main/res/drawable/ic_music_24.xml" value="0.167" />
         <entry key="..\:/Users/muhaz/AndroidStudioProjects/capstone/app/src/main/res/drawable/icon_bg.xml" value="0.122" />
         <entry key="..\:/Users/muhaz/AndroidStudioProjects/capstone/app/src/main/res/layout-v26/activity_main.xml" value="0.33" />
-        <entry key="..\:/Users/muhaz/AndroidStudioProjects/capstone/app/src/main/res/layout/activity_category.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/muhaz/AndroidStudioProjects/capstone/app/src/main/res/layout/activity_animals.xml" value="0.25" />
+        <entry key="..\:/Users/muhaz/AndroidStudioProjects/capstone/app/src/main/res/layout/activity_category.xml" value="0.25" />
+        <entry key="..\:/Users/muhaz/AndroidStudioProjects/capstone/app/src/main/res/layout/activity_house.xml" value="0.12" />
         <entry key="..\:/Users/muhaz/AndroidStudioProjects/capstone/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/muhaz/AndroidStudioProjects/capstone/app/src/main/res/layout/activity_sub_category.xml" value="0.1" />
         <entry key="..\:/Users/muhaz/AndroidStudioProjects/capstone/app/src/main/res/layout/button_shape.xml" value="0.20416666666666666" />
       </map>
     </option>
