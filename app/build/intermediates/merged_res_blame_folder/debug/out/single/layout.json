@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\Users\\muhaz\\AndroidStudioProjects\\capstone\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_stage.xml",
+        "source": "C:\\Users\\muhaz\\AndroidStudioProjects\\capstone\\app\\src\\main\\res\\layout\\activity_stage.xml"
+    },
+    {
+        "merged": "C:\\Users\\muhaz\\AndroidStudioProjects\\capstone\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_capture.xml",
+        "source": "C:\\Users\\muhaz\\AndroidStudioProjects\\capstone\\app\\src\\main\\res\\layout\\activity_capture.xml"
+    },
+    {
+        "merged": "C:\\Users\\muhaz\\AndroidStudioProjects\\capstone\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_narration.xml",
+        "source": "C:\\Users\\muhaz\\AndroidStudioProjects\\capstone\\app\\src\\main\\res\\layout\\activity_narration.xml"
+    },
+    {
+        "merged": "C:\\Users\\muhaz\\AndroidStudioProjects\\capstone\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_animals.xml",
+        "source": "C:\\Users\\muhaz\\AndroidStudioProjects\\capstone\\app\\src\\main\\res\\layout\\activity_animals.xml"
+    },
+    {
+        "merged": "C:\\Users\\muhaz\\AndroidStudioProjects\\capstone\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\muhaz\\AndroidStudioProjects\\capstone\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\muhaz\\AndroidStudioProjects\\capstone\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_house.xml",
+        "source": "C:\\Users\\muhaz\\AndroidStudioProjects\\capstone\\app\\src\\main\\res\\layout\\activity_house.xml"
+    },
+    {
+        "merged": "C:\\Users\\muhaz\\AndroidStudioProjects\\capstone\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_category.xml",
+        "source": "C:\\Users\\muhaz\\AndroidStudioProjects\\capstone\\app\\src\\main\\res\\layout\\activity_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\muhaz\\AndroidStudioProjects\\capstone\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_camera.xml",
+        "source": "C:\\Users\\muhaz\\AndroidStudioProjects\\capstone\\app\\src\\main\\res\\layout\\activity_camera.xml"
+    }
+]

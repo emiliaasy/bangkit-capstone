@@ -1,0 +1,177 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.emiliaasy.androidintermediate.capstone"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml
+10
+11    <uses-feature android:name="android.hardware.camera" />
+11-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:6:5-60
+11-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:6:19-57
+12
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:7:5-65
+13-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:7:22-62
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:9:5-80
+14-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:9:22-77
+15    <uses-permission
+15-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:10:5-11:38
+16        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+16-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:10:22-78
+17        android:maxSdkVersion="18" />
+17-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:11:9-35
+18
+19    <queries>
+19-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:60:5-66:15
+20        <intent>
+20-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:61:9-65:18
+21            <action android:name="android.intent.action.VIEW" />
+21-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:62:13-65
+21-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:62:21-62
+22
+23            <category android:name="android.intent.category.BROWSABLE" />
+23-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:63:13-74
+23-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:63:23-71
+24
+25            <data android:scheme="https" />
+25-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:64:13-44
+25-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:64:19-41
+26        </intent>
+27    </queries>
+28
+29    <application
+29-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:13:5-58:19
+30        android:allowBackup="true"
+30-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:14:9-35
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.7.0] C:\Users\muhaz\.gradle\caches\transforms-3\ec8778f597115131b77fc5968136215d\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+32        android:debuggable="true"
+33        android:icon="@mipmap/ic_launcher"
+33-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:15:9-43
+34        android:label="@string/app_name"
+34-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:16:9-41
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:17:9-54
+36        android:supportsRtl="true"
+36-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:18:9-35
+37        android:testOnly="true"
+38        android:theme="@style/Theme.Capstone" >
+38-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:19:9-46
+39        <activity
+39-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:20:9-22:40
+40            android:name="com.emiliaasy.androidintermediate.capstone.capture.CaptureActivity"
+40-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:21:13-52
+41            android:exported="false" />
+41-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:22:13-37
+42        <activity
+42-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:23:9-25:40
+43            android:name="com.emiliaasy.androidintermediate.capstone.NarrationActivity"
+43-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:24:13-46
+44            android:exported="false" />
+44-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:25:13-37
+45        <activity
+45-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:26:9-28:40
+46            android:name="com.emiliaasy.androidintermediate.capstone.StageActivity"
+46-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:27:13-42
+47            android:exported="false" />
+47-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:28:13-37
+48        <activity
+48-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:29:9-31:40
+49            android:name="com.emiliaasy.androidintermediate.capstone.subcategory.HouseActivity"
+49-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:30:13-54
+50            android:exported="false" />
+50-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:31:13-37
+51        <activity
+51-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:32:9-34:40
+52            android:name="com.emiliaasy.androidintermediate.capstone.subcategory.AnimalsActivity"
+52-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:33:13-56
+53            android:exported="false" />
+53-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:34:13-37
+54        <activity
+54-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:35:9-43:20
+55            android:name="com.emiliaasy.androidintermediate.capstone.MainActivity"
+55-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:36:13-41
+56            android:exported="true" >
+56-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:37:13-36
+57            <intent-filter>
+57-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:38:13-42:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:39:17-69
+58-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:39:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:41:17-77
+60-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:41:27-74
+61            </intent-filter>
+62        </activity>
+63        <activity
+63-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:44:9-46:40
+64            android:name="com.emiliaasy.androidintermediate.capstone.CategoryActivity"
+64-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:45:13-45
+65            android:exported="false" />
+65-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:46:13-37
+66
+67        <provider
+67-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:48:9-56:20
+68            android:name="androidx.core.content.FileProvider"
+68-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:49:13-62
+69            android:authorities="com.emiliaasy.androidintermediate.capstone"
+69-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:50:13-77
+70            android:exported="false"
+70-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:51:13-37
+71            android:grantUriPermissions="true" >
+71-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:52:13-47
+72            <meta-data
+72-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:53:13-55:53
+73                android:name="android.support.FILE_PROVIDER_PATHS"
+73-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:54:17-67
+74                android:resource="@xml/file_paths" />
+74-->C:\Users\muhaz\AndroidStudioProjects\capstone\app\src\main\AndroidManifest.xml:55:17-51
+75        </provider>
+76
+77        <service
+77-->[androidx.camera:camera-camera2:1.2.0-alpha01] C:\Users\muhaz\.gradle\caches\transforms-3\6d1564ce98c9f5913bf52e88b0a07abc\transformed\camera-camera2-1.2.0-alpha01\AndroidManifest.xml:26:9-35:19
+78            android:name="androidx.camera.core.impl.MetadataHolderService"
+78-->[androidx.camera:camera-camera2:1.2.0-alpha01] C:\Users\muhaz\.gradle\caches\transforms-3\6d1564ce98c9f5913bf52e88b0a07abc\transformed\camera-camera2-1.2.0-alpha01\AndroidManifest.xml:27:13-75
+79            android:enabled="false"
+79-->[androidx.camera:camera-camera2:1.2.0-alpha01] C:\Users\muhaz\.gradle\caches\transforms-3\6d1564ce98c9f5913bf52e88b0a07abc\transformed\camera-camera2-1.2.0-alpha01\AndroidManifest.xml:28:13-36
+80            android:exported="false" >
+80-->[androidx.camera:camera-camera2:1.2.0-alpha01] C:\Users\muhaz\.gradle\caches\transforms-3\6d1564ce98c9f5913bf52e88b0a07abc\transformed\camera-camera2-1.2.0-alpha01\AndroidManifest.xml:29:13-37
+81            <meta-data
+81-->[androidx.camera:camera-camera2:1.2.0-alpha01] C:\Users\muhaz\.gradle\caches\transforms-3\6d1564ce98c9f5913bf52e88b0a07abc\transformed\camera-camera2-1.2.0-alpha01\AndroidManifest.xml:32:13-34:89
+82                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+82-->[androidx.camera:camera-camera2:1.2.0-alpha01] C:\Users\muhaz\.gradle\caches\transforms-3\6d1564ce98c9f5913bf52e88b0a07abc\transformed\camera-camera2-1.2.0-alpha01\AndroidManifest.xml:33:17-103
+83                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+83-->[androidx.camera:camera-camera2:1.2.0-alpha01] C:\Users\muhaz\.gradle\caches\transforms-3\6d1564ce98c9f5913bf52e88b0a07abc\transformed\camera-camera2-1.2.0-alpha01\AndroidManifest.xml:34:17-86
+84        </service>
+85
+86        <provider
+86-->[androidx.emoji2:emoji2:1.0.0] C:\Users\muhaz\.gradle\caches\transforms-3\69d291d347a635c15fd15a8466543966\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+87            android:name="androidx.startup.InitializationProvider"
+87-->[androidx.emoji2:emoji2:1.0.0] C:\Users\muhaz\.gradle\caches\transforms-3\69d291d347a635c15fd15a8466543966\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+88            android:authorities="com.emiliaasy.androidintermediate.capstone.androidx-startup"
+88-->[androidx.emoji2:emoji2:1.0.0] C:\Users\muhaz\.gradle\caches\transforms-3\69d291d347a635c15fd15a8466543966\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+89            android:exported="false" >
+89-->[androidx.emoji2:emoji2:1.0.0] C:\Users\muhaz\.gradle\caches\transforms-3\69d291d347a635c15fd15a8466543966\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+90            <meta-data
+90-->[androidx.emoji2:emoji2:1.0.0] C:\Users\muhaz\.gradle\caches\transforms-3\69d291d347a635c15fd15a8466543966\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+91                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+91-->[androidx.emoji2:emoji2:1.0.0] C:\Users\muhaz\.gradle\caches\transforms-3\69d291d347a635c15fd15a8466543966\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+92                android:value="androidx.startup" />
+92-->[androidx.emoji2:emoji2:1.0.0] C:\Users\muhaz\.gradle\caches\transforms-3\69d291d347a635c15fd15a8466543966\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+93            <meta-data
+93-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\muhaz\.gradle\caches\transforms-3\5518efa1c1ca29993905068db3381641\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+94                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+94-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\muhaz\.gradle\caches\transforms-3\5518efa1c1ca29993905068db3381641\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+95                android:value="androidx.startup" />
+95-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\muhaz\.gradle\caches\transforms-3\5518efa1c1ca29993905068db3381641\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+96        </provider>
+97    </application>
+98
+99</manifest>
