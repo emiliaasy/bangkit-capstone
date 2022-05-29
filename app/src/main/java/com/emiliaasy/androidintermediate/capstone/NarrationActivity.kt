@@ -1,8 +1,10 @@
-package com.emiliaasy.androidintermediate.capstone.subcategory
+package com.emiliaasy.androidintermediate.capstone
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.emiliaasy.androidintermediate.capstone.MainActivity
+import com.emiliaasy.androidintermediate.capstone.capture.CaptureActivity
 import com.emiliaasy.androidintermediate.capstone.databinding.ActivityNarrationBinding
 
 class NarrationActivity : AppCompatActivity() {
@@ -19,6 +21,8 @@ class NarrationActivity : AppCompatActivity() {
     }
 
     private fun setupActions() {
-        //
+        binding.nextNavigation.setOnClickListener {
+            startActivity(Intent(this, CaptureActivity::class.java))
+        }
     }
 }

@@ -5,9 +5,11 @@
       <map>
         <entry key="..\:/Users/muhaz/AndroidStudioProjects/capstone/app/src/main/res/drawable/button.xml" value="0.1915" />
         <entry key="..\:/Users/muhaz/AndroidStudioProjects/capstone/app/src/main/res/drawable/button_shape.xml" value="0.122" />
+        <entry key="..\:/Users/muhaz/AndroidStudioProjects/capstone/app/src/main/res/drawable/ic_baseline_stars_24.xml" value="0.2115" />
         <entry key="..\:/Users/muhaz/AndroidStudioProjects/capstone/app/src/main/res/drawable/ic_exit_24.xml" value="0.2115" />
         <entry key="..\:/Users/muhaz/AndroidStudioProjects/capstone/app/src/main/res/drawable/ic_music_24.xml" value="0.167" />
         <entry key="..\:/Users/muhaz/AndroidStudioProjects/capstone/app/src/main/res/drawable/icon_bg.xml" value="0.122" />
+        <entry key="..\:/Users/muhaz/AndroidStudioProjects/capstone/app/src/main/res/drawable/level_shape.xml" value="0.2115" />
         <entry key="..\:/Users/muhaz/AndroidStudioProjects/capstone/app/src/main/res/layout-v26/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/muhaz/AndroidStudioProjects/capstone/app/src/main/res/layout/activity_animals.xml" value="0.25" />
         <entry key="..\:/Users/muhaz/AndroidStudioProjects/capstone/app/src/main/res/layout/activity_category.xml" value="0.25" />
@@ -17,6 +19,7 @@
         <entry key="..\:/Users/muhaz/AndroidStudioProjects/capstone/app/src/main/res/layout/activity_stage.xml" value="0.5" />
         <entry key="..\:/Users/muhaz/AndroidStudioProjects/capstone/app/src/main/res/layout/activity_sub_category.xml" value="0.1" />
         <entry key="..\:/Users/muhaz/AndroidStudioProjects/capstone/app/src/main/res/layout/button_shape.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/muhaz/AndroidStudioProjects/capstone/app/src/main/res/layout/fragment_capture.xml" value="0.22" />
       </map>
     </option>
   </component>

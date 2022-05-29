@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Capstone">
         <activity
-            android:name=".subcategory.NarrationActivity"
+            android:name=".capture.CaptureActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NarrationActivity"
             android:exported="false" />
         <activity
             android:name=".StageActivity"
