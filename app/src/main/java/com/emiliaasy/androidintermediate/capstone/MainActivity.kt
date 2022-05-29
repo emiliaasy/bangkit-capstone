@@ -21,5 +21,9 @@ class MainActivity : AppCompatActivity() {
         binding.newButton.setOnClickListener {
             startActivity(Intent(this, CategoryActivity::class.java))
         }
+
+        binding.continueButton.setOnClickListener {
+            startActivity(Intent(this, StageActivity::class.java))
+        }
     }
 }

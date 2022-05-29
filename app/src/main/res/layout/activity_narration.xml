@@ -90,7 +90,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
-    <com.google.android.material.navigation.NavigationView
+    <ImageButton
         android:id="@+id/next_navigation"
         android:layout_width="70dp"
         android:layout_height="70dp"
@@ -99,6 +99,6 @@
         android:background="@drawable/icons8_next_page_64"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="ContentDescription,MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
