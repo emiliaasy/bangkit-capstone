@@ -3,6 +3,40 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/muhaz/AndroidStudioProject/bangkit-capstone/android/app/src/main/res/drawable/button_orange.xml" value="0.182" />
+        <entry key="..\:/Users/muhaz/AndroidStudioProject/bangkit-capstone/android/app/src/main/res/drawable/button_shape.xml" value="0.182" />
+        <entry key="..\:/Users/muhaz/AndroidStudioProject/bangkit-capstone/android/app/src/main/res/drawable/ic_baseline_check_circle_24.xml" value="0.1" />
+        <entry key="..\:/Users/muhaz/AndroidStudioProject/bangkit-capstone/android/app/src/main/res/drawable/ic_camera_24.xml" value="0.1" />
+        <entry key="..\:/Users/muhaz/AndroidStudioProject/bangkit-capstone/android/app/src/main/res/layout/activity_animals.xml" value="0.1" />
+        <entry key="..\:/Users/muhaz/AndroidStudioProject/bangkit-capstone/android/app/src/main/res/layout/activity_capture.xml" value="0.2895238095238095" />
+        <entry key="..\:/Users/muhaz/AndroidStudioProject/bangkit-capstone/android/app/src/main/res/layout/activity_category.xml" value="0.1" />
+        <entry key="..\:/Users/muhaz/AndroidStudioProject/bangkit-capstone/android/app/src/main/res/layout/activity_correct_result.xml" value="0.1" />
+        <entry key="..\:/Users/muhaz/AndroidStudioProject/bangkit-capstone/android/app/src/main/res/layout/activity_exit_dialog.xml" value="0.33" />
+        <entry key="..\:/Users/muhaz/AndroidStudioProject/bangkit-capstone/android/app/src/main/res/layout/activity_explanation.xml" value="0.22" />
+        <entry key="..\:/Users/muhaz/AndroidStudioProject/bangkit-capstone/android/app/src/main/res/layout/activity_house.xml" value="0.1" />
+        <entry key="..\:/Users/muhaz/AndroidStudioProject/bangkit-capstone/android/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/muhaz/AndroidStudioProject/bangkit-capstone/android/app/src/main/res/layout/activity_narration.xml" value="0.1" />
+        <entry key="..\:/Users/muhaz/AndroidStudioProject/bangkit-capstone/android/app/src/main/res/layout/activity_stage.xml" value="0.25" />
+        <entry key="..\:/Users/muhaz/AndroidStudioProject/bangkit-capstone/android/app/src/main/res/layout/fragment_exit.xml" value="0.1734375" />
+        <entry key="..\:/Users/muhaz/AndroidStudioProject/bangkit-capstone/android/app/src/main/res/layout/template.xml" value="0.1" />
+        <entry key="..\:/Users/muhaz/AndroidStudioProject/bangkit-capstone/android/app/src/main/res/layout/template_menu.xml" value="0.33" />
+        <entry key="..\:/Users/muhaz/AndroidStudioProject/bangkit-capstone/android/app/src/main/res/layout/template_play.xml" value="0.1" />
+        <entry key="..\:/Users/muhaz/AndroidStudioProjects/bangkit-capstone/app/src/main/res/drawable/button_shape.xml" value="0.186" />
+        <entry key="..\:/Users/muhaz/AndroidStudioProjects/bangkit-capstone/app/src/main/res/drawable/ic_camera_24.xml" value="0.1" />
+        <entry key="..\:/Users/muhaz/AndroidStudioProjects/bangkit-capstone/app/src/main/res/drawable/ic_image_search_24.xml" value="0.1" />
+        <entry key="..\:/Users/muhaz/AndroidStudioProjects/bangkit-capstone/app/src/main/res/layout/activity_animals.xml" value="0.22" />
+        <entry key="..\:/Users/muhaz/AndroidStudioProjects/bangkit-capstone/app/src/main/res/layout/activity_capture.xml" value="0.33" />
+        <entry key="..\:/Users/muhaz/AndroidStudioProjects/bangkit-capstone/app/src/main/res/layout/activity_category.xml" value="0.25" />
+        <entry key="..\:/Users/muhaz/AndroidStudioProjects/bangkit-capstone/app/src/main/res/layout/activity_correct_result.xml" value="0.18125" />
+        <entry key="..\:/Users/muhaz/AndroidStudioProjects/bangkit-capstone/app/src/main/res/layout/activity_exit_dialog.xml" value="0.1" />
+        <entry key="..\:/Users/muhaz/AndroidStudioProjects/bangkit-capstone/app/src/main/res/layout/activity_explanation.xml" value="0.1" />
+        <entry key="..\:/Users/muhaz/AndroidStudioProjects/bangkit-capstone/app/src/main/res/layout/activity_house.xml" value="0.33" />
+        <entry key="..\:/Users/muhaz/AndroidStudioProjects/bangkit-capstone/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/muhaz/AndroidStudioProjects/bangkit-capstone/app/src/main/res/layout/activity_narration.xml" value="0.1" />
+        <entry key="..\:/Users/muhaz/AndroidStudioProjects/bangkit-capstone/app/src/main/res/layout/activity_pause_dialog.xml" value="0.33" />
+        <entry key="..\:/Users/muhaz/AndroidStudioProjects/bangkit-capstone/app/src/main/res/layout/activity_stage.xml" value="0.1" />
+        <entry key="..\:/Users/muhaz/AndroidStudioProjects/bangkit-capstone/app/src/main/res/layout/template_menu.xml" value="0.22" />
+        <entry key="..\:/Users/muhaz/AndroidStudioProjects/bangkit-capstone/app/src/main/res/layout/template_play.xml" value="0.5" />
         <entry key="..\:/Users/muhaz/AndroidStudioProjects/capstone/app/src/main/res/drawable-v24/ic_capture.xml" value="0.1735" />
         <entry key="..\:/Users/muhaz/AndroidStudioProjects/capstone/app/src/main/res/drawable-v24/ic_place_holder.xml" value="0.1735" />
         <entry key="..\:/Users/muhaz/AndroidStudioProjects/capstone/app/src/main/res/drawable-v24/ic_switch_camera.xml" value="0.1735" />

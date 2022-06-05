@@ -5,6 +5,6 @@
     <corners
         android:radius="190dp"/>
     <solid
-        android:color="@color/button_yellow"/>
+        android:color="@color/icon_bg"/>
 
 </shape>

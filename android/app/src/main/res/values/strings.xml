@@ -15,4 +15,19 @@
     <string name="camera">CAMERA</string>
     <string name="gallery">GALLERY</string>
     <string name="simpan">SIMPAN</string>
+    <string name="title_activity_explanation">ExplanationActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="exit_dialog">ANDA YAKIN INGIN MENGAKHIRI PERMAINAN?</string>
+    <string name="batal">BATAL</string>
+    <string name="keluar">KELUAR</string>
+    <string name="main_menu">MAIN MENU</string>
+    <string name="resume">RESUME</string>
 </resources>

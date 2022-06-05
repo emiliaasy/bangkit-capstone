@@ -1,4 +1,4 @@
-package com.emiliaasy.androidintermediate.capstone.capture
+package com.emiliaasy.bangkit.capstone.capture
 
 import android.app.Application
 import android.content.ContentResolver
@@ -7,7 +7,7 @@ import android.graphics.Bitmap
 import android.graphics.Matrix
 import android.net.Uri
 import android.os.Environment
-import com.emiliaasy.androidintermediate.capstone.R
+import com.emiliaasy.bangkit.capstone.R
 import java.io.File
 import java.io.FileOutputStream
 import java.io.InputStream

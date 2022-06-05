@@ -1,4 +1,4 @@
-package com.emiliaasy.androidintermediate.capstone.capture
+package com.emiliaasy.bangkit.capstone.capture
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -14,7 +14,9 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.core.content.FileProvider
-import com.emiliaasy.androidintermediate.capstone.databinding.ActivityCaptureBinding
+import com.emiliaasy.bangkit.capstone.databinding.ActivityCaptureBinding
+import com.emiliaasy.bangkit.capstone.dialog.PauseDialogActivity
+import com.emiliaasy.bangkit.capstone.result.CorrectResultActivity
 import java.io.File
 
 class CaptureActivity : AppCompatActivity() {
@@ -64,6 +66,9 @@ class CaptureActivity : AppCompatActivity() {
         binding.cameraButton.setOnClickListener { startTakePhoto() }
         binding.galleryButton.setOnClickListener { startGallery() }
         binding.uploadButton.setOnClickListener { uploadImage() }
+        binding.menu.pause.setOnClickListener {
+            startActivity(Intent(this, PauseDialogActivity::class.java))
+        }
     }
 
     @SuppressLint("QueryPermissionsNeeded")
@@ -74,7 +79,7 @@ class CaptureActivity : AppCompatActivity() {
         createCustomTempFile(application).also {
             val photoURI: Uri = FileProvider.getUriForFile(
                 this@CaptureActivity,
-                "com.emiliaasy.androidintermediate.capstone",
+                "com.emiliaasy.bangkit.capstone",
                 it
             )
             currentPhotoPath = it.absolutePath
@@ -92,7 +97,8 @@ class CaptureActivity : AppCompatActivity() {
     }
 
     private fun uploadImage() {
-        Toast.makeText(this, "Fitur ini belum tersedia", Toast.LENGTH_SHORT).show()
+//        Toast.makeText(this, "Fitur ini belum tersedia", Toast.LENGTH_SHORT).show()
+            startActivity(Intent(this, CorrectResultActivity::class.java))
     }
 
     private lateinit var currentPhotoPath: String

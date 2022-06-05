@@ -1,9 +1,10 @@
-package com.emiliaasy.androidintermediate.capstone
+package com.emiliaasy.bangkit.capstone
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.emiliaasy.androidintermediate.capstone.databinding.ActivityStageBinding
+import com.emiliaasy.bangkit.capstone.databinding.ActivityStageBinding
+import com.emiliaasy.bangkit.capstone.dialog.ExitDialogActivity
 
 class StageActivity : AppCompatActivity() {
     private lateinit var binding: ActivityStageBinding
@@ -29,6 +30,14 @@ class StageActivity : AppCompatActivity() {
 
         binding.stage3.setOnClickListener {
             startActivity(Intent(this, NarrationActivity::class.java))
+        }
+
+        binding.menu.quit.setOnClickListener {
+            startActivity(Intent(this, ExitDialogActivity::class.java))
+        }
+
+        binding.menu.quit.setOnClickListener {
+            startActivity(Intent(this, ExitDialogActivity::class.java))
         }
     }
 }

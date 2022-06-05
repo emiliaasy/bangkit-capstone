@@ -9,12 +9,12 @@
         <item name="cornerSize">50%</item>
         <item name="android:width">40dp</item>
         <item name="android:height">30dp</item>
-        <item name="color">@color/button_blue</item>
+        <item name="color">@color/button_yellow</item>
     </style>
 
     <style name="narration">
         <item name="android:width">100dp</item>
         <item name="android:height">60dp</item>
-        <item name="colorContainer">@color/button_blue</item>
+        <item name="colorContainer">@color/button_yellow</item>
     </style>
 </resources>

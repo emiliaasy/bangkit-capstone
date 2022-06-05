@@ -1,11 +1,17 @@
-package com.emiliaasy.androidintermediate.capstone
+package com.emiliaasy.bangkit.capstone
 
+import android.R
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.emiliaasy.androidintermediate.capstone.databinding.ActivityCategoryBinding
-import com.emiliaasy.androidintermediate.capstone.subcategory.AnimalsActivity
-import com.emiliaasy.androidintermediate.capstone.subcategory.HouseActivity
+import android.view.View
+import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
+import com.emiliaasy.bangkit.capstone.databinding.ActivityCategoryBinding
+import com.emiliaasy.bangkit.capstone.databinding.TemplateMenuBinding
+import com.emiliaasy.bangkit.capstone.dialog.ExitDialogActivity
+import com.emiliaasy.bangkit.capstone.subcategory.AnimalsActivity
+import com.emiliaasy.bangkit.capstone.subcategory.HouseActivity
+
 
 class CategoryActivity : AppCompatActivity() {
     private lateinit var binding: ActivityCategoryBinding
@@ -27,6 +33,10 @@ class CategoryActivity : AppCompatActivity() {
 
         binding.animalsButton.setOnClickListener {
             startActivity(Intent(this, AnimalsActivity::class.java))
+        }
+
+        binding.menu.quit.setOnClickListener {
+            startActivity(Intent(this, ExitDialogActivity::class.java))
         }
     }
 }

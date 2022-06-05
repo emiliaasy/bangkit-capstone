@@ -1,11 +1,11 @@
-package com.emiliaasy.androidintermediate.capstone.subcategory
+package com.emiliaasy.bangkit.capstone.subcategory
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.emiliaasy.androidintermediate.capstone.MainActivity
-import com.emiliaasy.androidintermediate.capstone.StageActivity
-import com.emiliaasy.androidintermediate.capstone.databinding.ActivityHouseBinding
+import com.emiliaasy.bangkit.capstone.StageActivity
+import com.emiliaasy.bangkit.capstone.databinding.ActivityHouseBinding
+import com.emiliaasy.bangkit.capstone.dialog.ExitDialogActivity
 
 class HouseActivity : AppCompatActivity() {
     private lateinit var binding: ActivityHouseBinding
@@ -27,6 +27,10 @@ class HouseActivity : AppCompatActivity() {
 
         binding.bedRoom.setOnClickListener {
             startActivity(Intent(this, StageActivity::class.java))
+        }
+
+        binding.menu.quit.setOnClickListener {
+            startActivity(Intent(this, ExitDialogActivity::class.java))
         }
     }
 }

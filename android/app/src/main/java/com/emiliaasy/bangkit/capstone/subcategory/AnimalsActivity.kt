@@ -1,11 +1,11 @@
-package com.emiliaasy.androidintermediate.capstone.subcategory
+package com.emiliaasy.bangkit.capstone.subcategory
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.emiliaasy.androidintermediate.capstone.MainActivity
-import com.emiliaasy.androidintermediate.capstone.StageActivity
-import com.emiliaasy.androidintermediate.capstone.databinding.ActivityAnimalsBinding
+import com.emiliaasy.bangkit.capstone.StageActivity
+import com.emiliaasy.bangkit.capstone.databinding.ActivityAnimalsBinding
+import com.emiliaasy.bangkit.capstone.dialog.ExitDialogActivity
 
 class AnimalsActivity : AppCompatActivity() {
     private lateinit var binding: ActivityAnimalsBinding
@@ -31,6 +31,10 @@ class AnimalsActivity : AppCompatActivity() {
 
         binding.insects.setOnClickListener {
             startActivity(Intent(this, StageActivity::class.java))
+        }
+
+        binding.menu.quit.setOnClickListener {
+            startActivity(Intent(this, ExitDialogActivity::class.java))
         }
     }
 }
