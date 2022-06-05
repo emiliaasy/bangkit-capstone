@@ -1,17 +1,12 @@
 package com.emiliaasy.bangkit.capstone
 
-import android.R
 import android.content.Intent
 import android.os.Bundle
-import android.view.View
-import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.emiliaasy.bangkit.capstone.databinding.ActivityCategoryBinding
-import com.emiliaasy.bangkit.capstone.databinding.TemplateMenuBinding
 import com.emiliaasy.bangkit.capstone.dialog.ExitDialogActivity
 import com.emiliaasy.bangkit.capstone.subcategory.AnimalsActivity
 import com.emiliaasy.bangkit.capstone.subcategory.HouseActivity
-
 
 class CategoryActivity : AppCompatActivity() {
     private lateinit var binding: ActivityCategoryBinding

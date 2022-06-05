@@ -25,10 +25,6 @@ class HouseActivity : AppCompatActivity() {
             startActivity(Intent(this, StageActivity::class.java))
         }
 
-        binding.bedRoom.setOnClickListener {
-            startActivity(Intent(this, StageActivity::class.java))
-        }
-
         binding.menu.quit.setOnClickListener {
             startActivity(Intent(this, ExitDialogActivity::class.java))
         }

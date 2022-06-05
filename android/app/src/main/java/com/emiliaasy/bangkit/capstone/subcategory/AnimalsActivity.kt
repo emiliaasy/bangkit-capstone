@@ -29,10 +29,6 @@ class AnimalsActivity : AppCompatActivity() {
             startActivity(Intent(this, StageActivity::class.java))
         }
 
-        binding.insects.setOnClickListener {
-            startActivity(Intent(this, StageActivity::class.java))
-        }
-
         binding.menu.quit.setOnClickListener {
             startActivity(Intent(this, ExitDialogActivity::class.java))
         }

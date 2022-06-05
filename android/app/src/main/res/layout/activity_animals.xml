@@ -61,17 +61,17 @@
             android:layout_width="215dp"
             android:layout_height="120dp"
             android:layout_marginTop="400dp"
-            android:background="@drawable/animals_insect"
+            android:background="@drawable/animals_insect_disable"
             tools:ignore="ContentDescription" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="520dp"
-            android:text="@string/serangga"
+            android:layout_marginTop="430dp"
+            android:text="@string/coming_soon"
             android:textAlignment="center"
-            android:textColor="@color/yellow"
+            android:textColor="@color/material_on_primary_disabled"
             android:textSize="25sp" />
 
     </FrameLayout>

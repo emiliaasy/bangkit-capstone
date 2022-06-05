@@ -3,6 +3,31 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Bismillah, Produktif!/Bangkit 2022 BISMILLAH/Capstone Project/bangkit-capstone/android/app/src/main/res/drawable/ic_music_24.xml" value="0.186" />
+        <entry key="..\:/Bismillah, Produktif!/Bangkit 2022 BISMILLAH/Capstone Project/bangkit-capstone/android/app/src/main/res/drawable/ic_music_off_24.xml" value="0.186" />
+        <entry key="..\:/Bismillah, Produktif!/Bangkit 2022 BISMILLAH/Capstone Project/bangkit-capstone/android/app/src/main/res/layout-land/activity_animals.xml" value="0.33" />
+        <entry key="..\:/Bismillah, Produktif!/Bangkit 2022 BISMILLAH/Capstone Project/bangkit-capstone/android/app/src/main/res/layout-land/activity_capture.xml" value="0.25" />
+        <entry key="..\:/Bismillah, Produktif!/Bangkit 2022 BISMILLAH/Capstone Project/bangkit-capstone/android/app/src/main/res/layout-land/activity_category.xml" value="0.25" />
+        <entry key="..\:/Bismillah, Produktif!/Bangkit 2022 BISMILLAH/Capstone Project/bangkit-capstone/android/app/src/main/res/layout-land/activity_explanation.xml" value="0.19635416666666666" />
+        <entry key="..\:/Bismillah, Produktif!/Bangkit 2022 BISMILLAH/Capstone Project/bangkit-capstone/android/app/src/main/res/layout-land/activity_house.xml" value="0.33" />
+        <entry key="..\:/Bismillah, Produktif!/Bangkit 2022 BISMILLAH/Capstone Project/bangkit-capstone/android/app/src/main/res/layout-land/activity_main.xml" value="0.19635416666666666" />
+        <entry key="..\:/Bismillah, Produktif!/Bangkit 2022 BISMILLAH/Capstone Project/bangkit-capstone/android/app/src/main/res/layout-land/activity_narration.xml" value="0.25" />
+        <entry key="..\:/Bismillah, Produktif!/Bangkit 2022 BISMILLAH/Capstone Project/bangkit-capstone/android/app/src/main/res/layout-land/activity_stage.xml" value="0.19635416666666666" />
+        <entry key="..\:/Bismillah, Produktif!/Bangkit 2022 BISMILLAH/Capstone Project/bangkit-capstone/android/app/src/main/res/layout-land/template_menu.xml" value="0.19635416666666666" />
+        <entry key="..\:/Bismillah, Produktif!/Bangkit 2022 BISMILLAH/Capstone Project/bangkit-capstone/android/app/src/main/res/layout-land/template_play.xml" value="0.19635416666666666" />
+        <entry key="..\:/Bismillah, Produktif!/Bangkit 2022 BISMILLAH/Capstone Project/bangkit-capstone/android/app/src/main/res/layout/activity_animals.xml" value="0.33" />
+        <entry key="..\:/Bismillah, Produktif!/Bangkit 2022 BISMILLAH/Capstone Project/bangkit-capstone/android/app/src/main/res/layout/activity_capture.xml" value="0.20416666666666666" />
+        <entry key="..\:/Bismillah, Produktif!/Bangkit 2022 BISMILLAH/Capstone Project/bangkit-capstone/android/app/src/main/res/layout/activity_category.xml" value="0.20416666666666666" />
+        <entry key="..\:/Bismillah, Produktif!/Bangkit 2022 BISMILLAH/Capstone Project/bangkit-capstone/android/app/src/main/res/layout/activity_correct_result.xml" value="0.20416666666666666" />
+        <entry key="..\:/Bismillah, Produktif!/Bangkit 2022 BISMILLAH/Capstone Project/bangkit-capstone/android/app/src/main/res/layout/activity_exit_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/Bismillah, Produktif!/Bangkit 2022 BISMILLAH/Capstone Project/bangkit-capstone/android/app/src/main/res/layout/activity_explanation.xml" value="0.20416666666666666" />
+        <entry key="..\:/Bismillah, Produktif!/Bangkit 2022 BISMILLAH/Capstone Project/bangkit-capstone/android/app/src/main/res/layout/activity_house.xml" value="0.33" />
+        <entry key="..\:/Bismillah, Produktif!/Bangkit 2022 BISMILLAH/Capstone Project/bangkit-capstone/android/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Bismillah, Produktif!/Bangkit 2022 BISMILLAH/Capstone Project/bangkit-capstone/android/app/src/main/res/layout/activity_narration.xml" value="0.20416666666666666" />
+        <entry key="..\:/Bismillah, Produktif!/Bangkit 2022 BISMILLAH/Capstone Project/bangkit-capstone/android/app/src/main/res/layout/activity_pause_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/Bismillah, Produktif!/Bangkit 2022 BISMILLAH/Capstone Project/bangkit-capstone/android/app/src/main/res/layout/activity_stage.xml" value="0.20416666666666666" />
+        <entry key="..\:/Bismillah, Produktif!/Bangkit 2022 BISMILLAH/Capstone Project/bangkit-capstone/android/app/src/main/res/layout/template_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Bismillah, Produktif!/Bangkit 2022 BISMILLAH/Capstone Project/bangkit-capstone/android/app/src/main/res/layout/template_play.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/muhaz/AndroidStudioProject/bangkit-capstone/android/app/src/main/res/drawable/button_orange.xml" value="0.182" />
         <entry key="..\:/Users/muhaz/AndroidStudioProject/bangkit-capstone/android/app/src/main/res/drawable/button_shape.xml" value="0.182" />
         <entry key="..\:/Users/muhaz/AndroidStudioProject/bangkit-capstone/android/app/src/main/res/drawable/ic_baseline_check_circle_24.xml" value="0.1" />
@@ -64,7 +89,7 @@
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/build/classes" />
+    <output url="file://$PROJECT_DIR$/../../../../../Bismillah, Produktif/!/Bangkit 2022 BISMILLAH/Capstone Project/bangkit-capstone/android/build/classes" />
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
