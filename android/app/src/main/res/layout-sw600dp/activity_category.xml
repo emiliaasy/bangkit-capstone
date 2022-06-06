@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/background_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategoryActivity">
+
+    <include
+        android:id="@+id/menu"
+        layout="@layout/template_menu"/>
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/houseButton"
+            android:layout_width="300dp"
+            android:layout_height="210dp"
+            android:background="@drawable/house"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="210dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/rumah"
+            android:textColor="@color/yellow"
+            android:textAlignment="center"
+            android:textSize="32sp" />
+
+        <ImageButton
+            android:id="@+id/animalsButton"
+            android:layout_width="300dp"
+            android:layout_height="210dp"
+            android:layout_marginTop="300dp"
+            android:background="@drawable/animals"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="510dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/hewan"
+            android:textColor="@color/yellow"
+            android:textAlignment="center"
+            android:textSize="32sp" />
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
