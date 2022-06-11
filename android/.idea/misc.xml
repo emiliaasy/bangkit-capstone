@@ -87,22 +87,27 @@
         <entry key="..\:/Users/muhaz/AndroidStudioProjects/capstone/app/src/main/res/layout/fragment_capture.xml" value="0.22" />
         <entry key="..\:/Users/muhaz/AndroidStudioProjects/capstone/app/src/main/res/xml/file_paths.xml" value="0.11458333333333333" />
         <entry key="app/src/main/res/drawable/button_orange.xml" value="0.1205" />
+        <entry key="app/src/main/res/drawable/button_shape.xml" value="0.1955" />
+        <entry key="app/src/main/res/drawable/button_shape_disable.xml" value="0.1955" />
         <entry key="app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_baseline_key_24.xml" value="0.1285" />
         <entry key="app/src/main/res/drawable/ic_logout_24.xml" value="0.1805" />
         <entry key="app/src/main/res/layout-land/activity_login.xml" value="0.3134920634920635" />
         <entry key="app/src/main/res/layout-land/activity_main.xml" value="0.16181657848324515" />
         <entry key="app/src/main/res/layout-land/activity_register.xml" value="0.3134920634920635" />
+        <entry key="app/src/main/res/layout-land/activity_stage.xml" value="0.3134920634920635" />
         <entry key="app/src/main/res/layout-land/activity_welcome.xml" value="0.3134920634920635" />
         <entry key="app/src/main/res/layout-land/template_menu.xml" value="0.2" />
         <entry key="app/src/main/res/layout-land/template_play.xml" value="0.16181657848324515" />
         <entry key="app/src/main/res/layout-sw600dp/activity_login.xml" value="0.25546448087431695" />
-        <entry key="app/src/main/res/layout-sw600dp/activity_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout-sw600dp/activity_main.xml" value="0.22" />
         <entry key="app/src/main/res/layout-sw600dp/activity_register.xml" value="0.25546448087431695" />
+        <entry key="app/src/main/res/layout-sw600dp/activity_stage.xml" value="0.21" />
         <entry key="app/src/main/res/layout-sw600dp/activity_welcome.xml" value="0.2" />
         <entry key="app/src/main/res/layout-sw600dp/template_menu.xml" value="0.17" />
         <entry key="app/src/main/res/layout-sw600dp/template_play.xml" value="0.143359375" />
         <entry key="app/src/main/res/layout/activity_capture.xml" value="0.19114583333333332" />
+        <entry key="app/src/main/res/layout/activity_correct_result.xml" value="0.3188405797101449" />
         <entry key="app/src/main/res/layout/activity_exit_dialog.xml" value="0.2821557971014493" />
         <entry key="app/src/main/res/layout/activity_explanation.xml" value="0.2821557971014493" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.33" />
