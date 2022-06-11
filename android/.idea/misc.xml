@@ -87,6 +87,12 @@
         <entry key="..\:/Users/muhaz/AndroidStudioProjects/capstone/app/src/main/res/xml/file_paths.xml" value="0.11458333333333333" />
         <entry key="app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_baseline_key_24.xml" value="0.1285" />
+        <entry key="app/src/main/res/layout-land/activity_login.xml" value="0.3134920634920635" />
+        <entry key="app/src/main/res/layout-land/activity_register.xml" value="0.3134920634920635" />
+        <entry key="app/src/main/res/layout-land/activity_welcome.xml" value="0.3134920634920635" />
+        <entry key="app/src/main/res/layout-sw600dp/activity_login.xml" value="0.25546448087431695" />
+        <entry key="app/src/main/res/layout-sw600dp/activity_register.xml" value="0.25546448087431695" />
+        <entry key="app/src/main/res/layout-sw600dp/activity_welcome.xml" value="0.25546448087431695" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_stage.xml" value="0.18009118541033434" />
