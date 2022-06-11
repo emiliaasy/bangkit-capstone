@@ -1,21 +1,20 @@
-package com.emiliaasy.bangkit.capstone.login
+package com.emiliaasy.bangkit.capstone.model
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.asLiveData
 import androidx.lifecycle.viewModelScope
-import com.emiliaasy.bangkit.capstone.model.UserModel
-import com.emiliaasy.bangkit.capstone.model.UserPreference
 import kotlinx.coroutines.launch
 
-class LoginViewModel(private val pref: UserPreference) : ViewModel() {
+class UserViewModel(private val pref: UserPreference) : ViewModel() {
     fun getUser(): LiveData<UserModel> {
         return pref.getUser().asLiveData()
     }
 
-    fun login() {
+    fun logout() {
         viewModelScope.launch {
-            pref.login()
+            pref.logout()
         }
     }
+
 }

@@ -9,15 +9,18 @@ import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.preferencesDataStore
 import androidx.lifecycle.ViewModelProvider
 import com.emiliaasy.bangkit.capstone.*
-import com.emiliaasy.bangkit.capstone.data.UserPreference
+import com.emiliaasy.bangkit.capstone.category.CategoryActivity
+import com.emiliaasy.bangkit.capstone.model.UserPreference
 import com.emiliaasy.bangkit.capstone.databinding.ActivityMainBinding
 import com.emiliaasy.bangkit.capstone.dialog.ExitDialogActivity
+import com.emiliaasy.bangkit.capstone.model.UserViewModel
+import com.emiliaasy.bangkit.capstone.model.ViewModelFactory
 
 private val Context.dataStore: DataStore<Preferences> by preferencesDataStore(name = "user")
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
-    private lateinit var mainViewModel: MainViewModel
+    private lateinit var userViewModel: UserViewModel
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -26,14 +29,14 @@ class MainActivity : AppCompatActivity() {
 
         supportActionBar?.hide()
 
-        mainViewModel = ViewModelProvider(
+        userViewModel = ViewModelProvider(
             this,
             ViewModelFactory(UserPreference.getInstance(dataStore))
-        )[MainViewModel::class.java]
+        )[UserViewModel::class.java]
 
-        mainViewModel.getUser().observe(this) { user ->
+        userViewModel.getUser().observe(this) { user ->
             if (user.isLogin) {
-                binding.menu.user!!.text = getString(R.string.greeting, user.name)
+                binding.user.text = getString(R.string.greeting, user.name)
             } else {
                 startActivity(Intent(this, WelcomeActivity::class.java))
                 finish()
@@ -44,7 +47,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setupActions(){
-        binding.menu.quit!!.setOnClickListener {
+        binding.quit.setOnClickListener {
             startActivity(Intent(this, ExitDialogActivity::class.java))
         }
 
@@ -56,8 +59,8 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, StageActivity::class.java))
         }
 
-        binding.menu.logout.setOnClickListener {
-            mainViewModel.logout()
+        binding.logout.setOnClickListener {
+            userViewModel.logout()
         }
     }
 }

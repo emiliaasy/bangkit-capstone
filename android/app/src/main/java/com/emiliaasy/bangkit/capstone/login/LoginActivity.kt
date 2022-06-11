@@ -10,9 +10,9 @@ import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.preferencesDataStore
 import androidx.lifecycle.ViewModelProvider
 import com.emiliaasy.bangkit.capstone.main.MainActivity
-import com.emiliaasy.bangkit.capstone.ViewModelFactory
-import com.emiliaasy.bangkit.capstone.data.UserModel
-import com.emiliaasy.bangkit.capstone.data.UserPreference
+import com.emiliaasy.bangkit.capstone.model.ViewModelFactory
+import com.emiliaasy.bangkit.capstone.model.UserModel
+import com.emiliaasy.bangkit.capstone.model.UserPreference
 import com.emiliaasy.bangkit.capstone.databinding.ActivityLoginBinding
 import com.emiliaasy.bangkit.capstone.dialog.ExitDialogActivity
 

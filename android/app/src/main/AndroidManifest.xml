@@ -77,7 +77,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".CategoryActivity"
+            android:name=".category.CategoryActivity"
             android:exported="false" />
 
         <provider

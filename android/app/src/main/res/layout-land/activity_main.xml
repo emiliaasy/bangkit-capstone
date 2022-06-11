@@ -7,9 +7,79 @@
     android:layout_height="match_parent"
     tools:context=".main.MainActivity">
 
-    <include
-        android:id="@+id/menu"
-        layout="@layout/template_menu"/>
+    <Button
+        android:id="@+id/music_on"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/icon_bg"
+        android:padding="10dp"
+        app:icon="@drawable/ic_music_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/icon_top" />
+
+    <Button
+        android:id="@+id/user"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/icon_bg"
+        android:lines="1"
+        android:maxLines="1"
+        android:text=""
+        android:textAlignment="viewStart"
+        android:textSize="15sp"
+        app:icon="@drawable/ic_user_24"
+        app:layout_constraintStart_toEndOf="@+id/music_on"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/level"/>
+
+    <Button
+        android:id="@+id/help"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        android:backgroundTint="@color/icon_bg"
+        android:padding="13dp"
+        app:icon="@drawable/ic_help_24"
+        app:layout_constraintEnd_toStartOf="@+id/logout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/icon_top" />
+
+    <Button
+        android:id="@+id/logout"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        android:backgroundTint="@color/text_button"
+        android:padding="14dp"
+        app:icon="@drawable/ic_logout_24"
+        app:layout_constraintEnd_toStartOf="@+id/quit"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/icon_top" />
+
+    <Button
+        android:id="@+id/quit"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@color/button_red"
+        android:padding="14dp"
+        app:icon="@drawable/ic_close_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/icon_top" />
 
     <FrameLayout
         android:id="@+id/frameLayout"

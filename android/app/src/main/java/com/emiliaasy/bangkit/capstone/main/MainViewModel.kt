@@ -4,8 +4,8 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.asLiveData
 import androidx.lifecycle.viewModelScope
-import com.emiliaasy.bangkit.capstone.data.UserModel
-import com.emiliaasy.bangkit.capstone.data.UserPreference
+import com.emiliaasy.bangkit.capstone.model.UserModel
+import com.emiliaasy.bangkit.capstone.model.UserPreference
 import kotlinx.coroutines.launch
 
 class MainViewModel(private val pref: UserPreference) : ViewModel() {

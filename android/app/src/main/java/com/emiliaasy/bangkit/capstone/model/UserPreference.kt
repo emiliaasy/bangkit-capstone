@@ -1,4 +1,4 @@
-package com.emiliaasy.bangkit.capstone.data
+package com.emiliaasy.bangkit.capstone.model
 
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences

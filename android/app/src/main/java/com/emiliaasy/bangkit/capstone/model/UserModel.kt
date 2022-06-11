@@ -1,4 +1,4 @@
-package com.emiliaasy.bangkit.capstone.data
+package com.emiliaasy.bangkit.capstone.model
 
 data class UserModel(
     val name: String,

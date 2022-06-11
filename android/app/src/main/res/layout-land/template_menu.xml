@@ -25,6 +25,25 @@
         tools:layout_editor_absoluteY="8dp" />
 
     <Button
+        android:id="@+id/user"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:backgroundTint="@color/icon_bg"
+        android:lines="1"
+        android:maxLines="1"
+        android:text=""
+        android:textAlignment="viewStart"
+        android:textSize="15sp"
+        app:icon="@drawable/ic_user_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/music_on"
+        app:layout_constraintTop_toTopOf="@+id/music_on"
+        app:shapeAppearanceOverlay="@style/level"
+        tools:ignore="RtlSymmetry" />
+
+    <Button
         android:id="@+id/help"
         style="?android:attr/buttonBarButtonStyle"
         android:layout_width="50dp"
