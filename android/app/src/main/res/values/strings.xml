@@ -34,4 +34,11 @@
     <string name="sign_in">SIGN IN</string>
     <string name="halo_petualang_muda">Halo Petualang Muda!</string>
     <string name="are_u_ready">Sudah siap berpetualang bersama?</string>
+    <string name="hint_name">Masukkan nama Anda</string>
+    <string name="hint_email">Masukkan email Anda</string>
+    <string name="hint_password">Masukkan password Anda</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="text_login_page">LOG IN</string>
+    <string name="log_in">LOG IN</string>
 </resources>
