@@ -32,12 +32,9 @@ class StageActivity : AppCompatActivity() {
             startActivity(Intent(this, NarrationActivity::class.java))
         }
 
-        binding.menu.quit.setOnClickListener {
+        binding.menu.quit!!.setOnClickListener {
             startActivity(Intent(this, ExitDialogActivity::class.java))
         }
 
-        binding.menu.quit.setOnClickListener {
-            startActivity(Intent(this, ExitDialogActivity::class.java))
-        }
     }
 }

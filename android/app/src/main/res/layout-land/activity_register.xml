@@ -30,7 +30,7 @@
         android:layout_marginEnd="16dp"
         android:backgroundTint="@color/button_red"
         android:padding="14dp"
-        app:icon="@drawable/ic_exit_24"
+        app:icon="@drawable/ic_close_24"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:shapeAppearanceOverlay="@style/icon_top" />
@@ -166,7 +166,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/loginButton"
+        android:id="@+id/signupButton"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:background="@drawable/button_shape"

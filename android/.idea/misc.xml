@@ -87,20 +87,26 @@
         <entry key="..\:/Users/muhaz/AndroidStudioProjects/capstone/app/src/main/res/xml/file_paths.xml" value="0.11458333333333333" />
         <entry key="app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_baseline_key_24.xml" value="0.1285" />
+        <entry key="app/src/main/res/drawable/ic_logout_24.xml" value="0.1805" />
         <entry key="app/src/main/res/layout-land/activity_login.xml" value="0.3134920634920635" />
         <entry key="app/src/main/res/layout-land/activity_register.xml" value="0.3134920634920635" />
         <entry key="app/src/main/res/layout-land/activity_welcome.xml" value="0.3134920634920635" />
+        <entry key="app/src/main/res/layout-land/template_menu.xml" value="0.16181657848324515" />
         <entry key="app/src/main/res/layout-sw600dp/activity_login.xml" value="0.25546448087431695" />
         <entry key="app/src/main/res/layout-sw600dp/activity_register.xml" value="0.25546448087431695" />
-        <entry key="app/src/main/res/layout-sw600dp/activity_welcome.xml" value="0.25546448087431695" />
+        <entry key="app/src/main/res/layout-sw600dp/activity_welcome.xml" value="0.2" />
+        <entry key="app/src/main/res/layout-sw600dp/template_menu.xml" value="0.143359375" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_stage.xml" value="0.18009118541033434" />
         <entry key="app/src/main/res/layout/activity_welcome.xml" value="0.338768115942029" />
+        <entry key="app/src/main/res/layout/template_menu.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/template_play.xml" value="0.19114583333333332" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file:///Bismillah, Produktif/!/Bangkit 2022 BISMILLAH/Capstone Project/bangkit-capstone/android/build/classes" />
   </component>
   <component name="ProjectType">

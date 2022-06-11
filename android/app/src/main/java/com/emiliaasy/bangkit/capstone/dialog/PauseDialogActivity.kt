@@ -3,7 +3,7 @@ package com.emiliaasy.bangkit.capstone.dialog
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.emiliaasy.bangkit.capstone.MainActivity
+import com.emiliaasy.bangkit.capstone.main.MainActivity
 import com.emiliaasy.bangkit.capstone.databinding.ActivityPauseDialogBinding
 
 class PauseDialogActivity : AppCompatActivity() {

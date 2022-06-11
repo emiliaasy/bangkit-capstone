@@ -35,7 +35,7 @@ class CategoryActivity : AppCompatActivity() {
             startActivity(Intent(this, AnimalsActivity::class.java))
         }
 
-        binding.menu.quit.setOnClickListener {
+        binding.menu.quit!!.setOnClickListener {
             startActivity(Intent(this, ExitDialogActivity::class.java))
         }
     }
