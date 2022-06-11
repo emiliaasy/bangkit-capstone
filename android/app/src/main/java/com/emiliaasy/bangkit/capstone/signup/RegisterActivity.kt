@@ -14,6 +14,7 @@ import com.emiliaasy.bangkit.capstone.model.UserModel
 import com.emiliaasy.bangkit.capstone.model.UserPreference
 import com.emiliaasy.bangkit.capstone.databinding.ActivityRegisterBinding
 import com.emiliaasy.bangkit.capstone.dialog.ExitDialogActivity
+import com.emiliaasy.bangkit.capstone.dialog.RegisterDialogActivity
 
 private val Context.dataStore: DataStore<Preferences> by preferencesDataStore(name = "user")
 
@@ -68,15 +69,7 @@ class RegisterActivity : AppCompatActivity() {
             }
             else -> {
                 signupViewModel.saveUser(UserModel(name, email, password, false))
-                AlertDialog.Builder(this).apply {
-                    setTitle("Yeay!")
-                    setMessage("Akun kamu sudah jadi. Yuk, mulai petualanganmu dengan login terlebih dahulu")
-                    setPositiveButton("OK") { _, _ ->
-                        finish()
-                    }
-                    create()
-                    show()
-                }
+                startActivity(Intent(this, RegisterDialogActivity::class.java))
             }
         }
     }

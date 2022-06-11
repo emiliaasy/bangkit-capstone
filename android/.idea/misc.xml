@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../../layout/custom_preview.xml" value="0.11890346451395896" />
         <entry key="..\:/Bismillah, Produktif!/Bangkit 2022 BISMILLAH/Capstone Project/bangkit-capstone/android/app/src/main/res/drawable/ic_music_24.xml" value="0.186" />
         <entry key="..\:/Bismillah, Produktif!/Bangkit 2022 BISMILLAH/Capstone Project/bangkit-capstone/android/app/src/main/res/drawable/ic_music_off_24.xml" value="0.186" />
         <entry key="..\:/Bismillah, Produktif!/Bangkit 2022 BISMILLAH/Capstone Project/bangkit-capstone/android/app/src/main/res/layout-land/activity_animals.xml" value="0.33" />
@@ -85,6 +86,7 @@
         <entry key="..\:/Users/muhaz/AndroidStudioProjects/capstone/app/src/main/res/layout/button_shape.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/muhaz/AndroidStudioProjects/capstone/app/src/main/res/layout/fragment_capture.xml" value="0.22" />
         <entry key="..\:/Users/muhaz/AndroidStudioProjects/capstone/app/src/main/res/xml/file_paths.xml" value="0.11458333333333333" />
+        <entry key="app/src/main/res/drawable/button_orange.xml" value="0.1205" />
         <entry key="app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_baseline_key_24.xml" value="0.1285" />
         <entry key="app/src/main/res/drawable/ic_logout_24.xml" value="0.1805" />
@@ -101,9 +103,14 @@
         <entry key="app/src/main/res/layout-sw600dp/template_menu.xml" value="0.17" />
         <entry key="app/src/main/res/layout-sw600dp/template_play.xml" value="0.143359375" />
         <entry key="app/src/main/res/layout/activity_capture.xml" value="0.19114583333333332" />
+        <entry key="app/src/main/res/layout/activity_exit_dialog.xml" value="0.2821557971014493" />
+        <entry key="app/src/main/res/layout/activity_explanation.xml" value="0.2821557971014493" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_login_dialog.xml" value="0.26856884057971014" />
+        <entry key="app/src/main/res/layout/activity_logout_dialog.xml" value="0.26856884057971014" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_register_dialog.xml" value="0.2821557971014493" />
         <entry key="app/src/main/res/layout/activity_stage.xml" value="0.18009118541033434" />
         <entry key="app/src/main/res/layout/activity_welcome.xml" value="0.338768115942029" />
         <entry key="app/src/main/res/layout/template_menu.xml" value="0.25" />

@@ -3,7 +3,6 @@ package com.emiliaasy.bangkit.capstone.model
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.emiliaasy.bangkit.capstone.login.LoginViewModel
-import com.emiliaasy.bangkit.capstone.main.MainViewModel
 import com.emiliaasy.bangkit.capstone.signup.RegisterViewModel
 
 class ViewModelFactory(private val pref: UserPreference) : ViewModelProvider.NewInstanceFactory() {

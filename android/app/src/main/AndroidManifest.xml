@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.emiliaasy.bangkit.capstone" >
+    package="com.emiliaasy.bangkit.capstone">
 
     <uses-feature android:name="android.hardware.camera" />
 
@@ -26,7 +26,19 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Capstone" >
+        android:theme="@style/Theme.Capstone">
+        <activity
+            android:name=".dialog.LogoutDialogActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Dialog"/>
+        <activity
+            android:name=".dialog.LoginDialogActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Dialog" />
+        <activity
+            android:name=".dialog.RegisterDialogActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Dialog" />
         <activity
             android:name=".signup.RegisterActivity"
             android:exported="false" />
@@ -84,7 +96,7 @@
             android:name="androidx.core.content.FileProvider"
             android:authorities="com.emiliaasy.bangkit.capstone"
             android:exported="false"
-            android:grantUriPermissions="true" >
+            android:grantUriPermissions="true">
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/file_paths" />

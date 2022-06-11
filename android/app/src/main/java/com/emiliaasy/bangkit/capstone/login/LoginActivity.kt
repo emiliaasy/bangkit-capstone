@@ -15,6 +15,8 @@ import com.emiliaasy.bangkit.capstone.model.UserModel
 import com.emiliaasy.bangkit.capstone.model.UserPreference
 import com.emiliaasy.bangkit.capstone.databinding.ActivityLoginBinding
 import com.emiliaasy.bangkit.capstone.dialog.ExitDialogActivity
+import com.emiliaasy.bangkit.capstone.dialog.LoginDialogActivity
+import com.emiliaasy.bangkit.capstone.dialog.RegisterDialogActivity
 
 private val Context.dataStore: DataStore<Preferences> by preferencesDataStore(name = "user")
 
@@ -70,18 +72,7 @@ class LoginActivity : AppCompatActivity() {
             }
             else -> {
                 loginViewModel.login()
-                AlertDialog.Builder(this).apply {
-                    setTitle("Yeay!")
-                    setMessage("Selamat Memulai Petualangan!")
-                    setPositiveButton("OK") { _, _ ->
-                        val intent = Intent(context, MainActivity::class.java)
-                        intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK
-                        startActivity(intent)
-                        finish()
-                    }
-                    create()
-                    show()
-                }
+                startActivity(Intent(this, LoginDialogActivity::class.java))
             }
         }
     }

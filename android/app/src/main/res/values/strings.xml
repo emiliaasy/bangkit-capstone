@@ -31,7 +31,7 @@
     <string name="main_menu">MAIN MENU</string>
     <string name="resume">RESUME</string>
     <string name="coming_soon">COMING\nSOON</string>
-    <string name="sign_in">SIGN IN</string>
+    <string name="sign_in">LOG IN</string>
     <string name="halo_petualang_muda">Halo Petualang Muda!</string>
     <string name="are_u_ready">Sudah siap berpetualang bersama?</string>
     <string name="hint_name">Masukkan nama Anda</string>
@@ -45,4 +45,10 @@
     <string name="name">Nama</string>
     <string name="sign_up">SIGN UP</string>
     <string name="greeting">%1$s</string>
+    <string name="register_dialog">SELAMAT BERGABUNG,\nPETUALANG MUDA!</string>
+    <string name="register1_dialog">Yuk log in, untuk memulai petualanganmu.</string>
+    <string name="ok">OK</string>
+    <string name="login_dialog">SELAMAT DATANG, PETUALANG MUDA!</string>
+    <string name="login1_dialog">Mulai berpetualang dan selesaikan tantangan yang ada!</string>
+    <string name="logout_dialog">ANDA YAKIN INGIN KELUAR\nDARI AKUN INI?</string>
 </resources>
