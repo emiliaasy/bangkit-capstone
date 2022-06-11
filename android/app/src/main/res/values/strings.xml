@@ -41,4 +41,7 @@
     <string name="email">Email</string>
     <string name="text_login_page">LOG IN</string>
     <string name="log_in">LOG IN</string>
+    <string name="register">REGISTER</string>
+    <string name="name">Nama</string>
+    <string name="sign_up">SIGN UP</string>
 </resources>

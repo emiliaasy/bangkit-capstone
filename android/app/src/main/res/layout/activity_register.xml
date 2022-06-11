@@ -42,7 +42,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
-        android:text="@string/text_login_page"
+        android:text="@string/register"
         android:textAlignment="center"
         android:textSize="28sp"
         android:textStyle="bold"
@@ -52,16 +52,53 @@
         app:layout_constraintTop_toBottomOf="@+id/quit" />
 
     <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/name"
+        android:textColor="@color/yellow"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginTextView" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/nameEditTextLayout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameTextView"
+        app:startIconDrawable="@drawable/ic_baseline_person_24"
+        app:startIconTint="@color/white"
+        android:textColorHint="@color/white"
+        android:hint="@string/hint_name">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/nameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hint_name"
+            android:inputType="text"
+            app:passwordToggleEnabled="true" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
         android:id="@+id/emailTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="24dp"
         android:text="@string/email"
-        android:textSize="20sp"
         android:textColor="@color/yellow"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/loginTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/nameEditTextLayout" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/emailEditTextLayout"
@@ -129,7 +166,7 @@
         android:layout_height="50dp"
         android:layout_marginTop="32dp"
         android:background="@drawable/button_shape"
-        android:text="@string/log_in"
+        android:text="@string/sign_up"
         android:textColor="@color/text_button"
         android:textSize="20sp"
         android:textStyle="bold"
