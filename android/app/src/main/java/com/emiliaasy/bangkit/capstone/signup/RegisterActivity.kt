@@ -1,9 +1,11 @@
 package com.emiliaasy.bangkit.capstone.signup
 
+import android.animation.ObjectAnimator
 import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import androidx.appcompat.app.AlertDialog
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
@@ -35,6 +37,7 @@ class RegisterActivity : AppCompatActivity() {
         )[RegisterViewModel::class.java]
 
         actionView()
+        animationView()
     }
 
     private fun actionView() {
@@ -76,5 +79,13 @@ class RegisterActivity : AppCompatActivity() {
 
     private fun isValidEmail(email: CharSequence): Boolean {
         return android.util.Patterns.EMAIL_ADDRESS.matcher(email).matches()
+    }
+
+    private fun animationView() {
+        ObjectAnimator.ofFloat(binding.imageView, View.ROTATION, -1f, 1f).apply {
+            duration = 600
+            repeatCount = ObjectAnimator.INFINITE
+            repeatMode = ObjectAnimator.REVERSE
+        }.start()
     }
 }

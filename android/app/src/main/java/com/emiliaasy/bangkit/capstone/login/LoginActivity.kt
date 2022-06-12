@@ -1,9 +1,12 @@
 package com.emiliaasy.bangkit.capstone.login
 
+import android.animation.AnimatorSet
+import android.animation.ObjectAnimator
 import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import androidx.appcompat.app.AlertDialog
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
@@ -42,6 +45,7 @@ class LoginActivity : AppCompatActivity() {
         }
 
         actionView()
+        animationView()
     }
 
     private fun actionView() {
@@ -75,5 +79,13 @@ class LoginActivity : AppCompatActivity() {
                 startActivity(Intent(this, LoginDialogActivity::class.java))
             }
         }
+    }
+
+    private fun animationView() {
+        ObjectAnimator.ofFloat(binding.imageView, View.ROTATION, -1f, 1f).apply {
+            duration = 600
+            repeatCount = ObjectAnimator.INFINITE
+            repeatMode = ObjectAnimator.REVERSE
+        }.start()
     }
 }
