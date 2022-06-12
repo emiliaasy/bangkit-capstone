@@ -20,7 +20,7 @@ class IncorrectResultActivity  : AppCompatActivity() {
     }
 
     private fun actionView() {
-        binding.nextNavigation.setOnClickListener {
+        binding.tryButton.setOnClickListener {
             startActivity(Intent(this, ExplanationActivity::class.java))
         }
 

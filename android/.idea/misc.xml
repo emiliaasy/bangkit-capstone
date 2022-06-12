@@ -104,7 +104,7 @@
         <entry key="app/src/main/res/layout-land/template_menu.xml" value="0.2" />
         <entry key="app/src/main/res/layout-land/template_play.xml" value="0.16181657848324515" />
         <entry key="app/src/main/res/layout-sw600dp/activity_correct_result.xml" value="0.230859375" />
-        <entry key="app/src/main/res/layout-sw600dp/activity_incorrect_result.xml" value="0.22" />
+        <entry key="app/src/main/res/layout-sw600dp/activity_incorrect_result.xml" value="0.25" />
         <entry key="app/src/main/res/layout-sw600dp/activity_login.xml" value="0.25546448087431695" />
         <entry key="app/src/main/res/layout-sw600dp/activity_main.xml" value="0.22" />
         <entry key="app/src/main/res/layout-sw600dp/activity_register.xml" value="0.25546448087431695" />
@@ -116,7 +116,7 @@
         <entry key="app/src/main/res/layout/activity_correct_result.xml" value="0.3188405797101449" />
         <entry key="app/src/main/res/layout/activity_exit_dialog.xml" value="0.2821557971014493" />
         <entry key="app/src/main/res/layout/activity_explanation.xml" value="0.2821557971014493" />
-        <entry key="app/src/main/res/layout/activity_incorrect_result.xml" value="0.15677083333333333" />
+        <entry key="app/src/main/res/layout/activity_incorrect_result.xml" value="0.2" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_login_dialog.xml" value="0.26856884057971014" />
         <entry key="app/src/main/res/layout/activity_logout_dialog.xml" value="0.26856884057971014" />

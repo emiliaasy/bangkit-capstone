@@ -21,7 +21,7 @@ class CorrectResultActivity : AppCompatActivity() {
 
     private fun actionView() {
         binding.nextNavigation.setOnClickListener {
-            startActivity(Intent(this, ExplanationActivity::class.java))
+            startActivity(Intent(this, IncorrectResultActivity::class.java))
         }
 
         binding.menu.pause.setOnClickListener {
