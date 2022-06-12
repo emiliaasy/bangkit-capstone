@@ -51,4 +51,6 @@
     <string name="login_dialog">SELAMAT DATANG, PETUALANG MUDA!</string>
     <string name="login1_dialog">Mulai berpetualang dan selesaikan tantangan yang ada!</string>
     <string name="logout_dialog">ANDA YAKIN INGIN KELUAR\nDARI AKUN INI?</string>
+    <string name="correct_response">SELAMAT!\nJAWABAN KAMU BENAR!</string>
+    <string name="wrong_answer">JAWABAN SALAH</string>
 </resources>

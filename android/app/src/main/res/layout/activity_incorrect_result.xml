@@ -5,7 +5,7 @@
     android:background="@color/background_color"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".result.CorrectResultActivity">
+    tools:context=".result.IncorrectResultActivity">
 
     <include
         android:id="@+id/menu"
@@ -28,14 +28,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:animateFirstView="true"
-            android:background="@drawable/ic_check_circle_24"
+            android:background="@drawable/ic_false_24"
             tools:ignore="ContentDescription" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="@string/correct_response"
+            android:text="@string/wrong_answer"
             android:textAlignment="center"
             android:textColor="@color/yellow"
             android:textSize="20sp"

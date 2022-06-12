@@ -28,9 +28,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Capstone">
         <activity
+            android:name=".result.IncorrectResultActivity"
+            android:exported="false" />
+        <activity
             android:name=".dialog.LogoutDialogActivity"
             android:exported="false"
-            android:theme="@style/Theme.Dialog"/>
+            android:theme="@style/Theme.Dialog" />
         <activity
             android:name=".dialog.LoginDialogActivity"
             android:exported="false"
