@@ -13,10 +13,10 @@ import com.emiliaasy.bangkit.capstone.category.CategoryActivity
 import com.emiliaasy.bangkit.capstone.model.UserPreference
 import com.emiliaasy.bangkit.capstone.databinding.ActivityMainBinding
 import com.emiliaasy.bangkit.capstone.dialog.ExitDialogActivity
-import com.emiliaasy.bangkit.capstone.dialog.LoginDialogActivity
 import com.emiliaasy.bangkit.capstone.dialog.LogoutDialogActivity
 import com.emiliaasy.bangkit.capstone.model.UserViewModel
 import com.emiliaasy.bangkit.capstone.model.ViewModelFactory
+import com.emiliaasy.bangkit.capstone.stage1.StageActivity
 
 private val Context.dataStore: DataStore<Preferences> by preferencesDataStore(name = "user")
 

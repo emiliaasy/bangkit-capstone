@@ -3,7 +3,7 @@ package com.emiliaasy.bangkit.capstone.result
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.emiliaasy.bangkit.capstone.ExplanationActivity
+import com.emiliaasy.bangkit.capstone.stage1.ExplanationActivity
 import com.emiliaasy.bangkit.capstone.databinding.ActivityCorrectResultBinding
 import com.emiliaasy.bangkit.capstone.dialog.PauseDialogActivity
 

@@ -1,4 +1,4 @@
-package com.emiliaasy.bangkit.capstone
+package com.emiliaasy.bangkit.capstone.stage1
 
 import android.content.Context
 import android.content.Intent
@@ -8,6 +8,8 @@ import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.preferencesDataStore
 import androidx.lifecycle.ViewModelProvider
+import com.emiliaasy.bangkit.capstone.R
+import com.emiliaasy.bangkit.capstone.WelcomeActivity
 import com.emiliaasy.bangkit.capstone.databinding.ActivityStageBinding
 import com.emiliaasy.bangkit.capstone.dialog.ExitDialogActivity
 import com.emiliaasy.bangkit.capstone.model.UserPreference

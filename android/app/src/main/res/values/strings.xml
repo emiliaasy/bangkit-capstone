@@ -53,4 +53,7 @@
     <string name="logout_dialog">ANDA YAKIN INGIN KELUAR\nDARI AKUN INI?</string>
     <string name="correct_response">SELAMAT!\nJAWABAN KAMU BENAR!</string>
     <string name="wrong_answer">JAWABAN SALAH</string>
+    <string name="soal_1">SOAL 1</string>
+    <string name="narration">NARASI</string>
+    <string name="narasi1">Halo petualang muda %1$s! Di hari libur ini kita akan berkunjung ke peternakan yang ada di desa. Kita pasti bisa melihat hewan ternak di sana, seru banget kan?\n\nAyo coba kita cari sapi yg ada disana!</string>
 </resources>

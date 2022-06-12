@@ -1,4 +1,4 @@
-package com.emiliaasy.bangkit.capstone
+package com.emiliaasy.bangkit.capstone.stage1
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

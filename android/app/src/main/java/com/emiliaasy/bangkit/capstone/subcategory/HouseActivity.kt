@@ -9,7 +9,7 @@ import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.preferencesDataStore
 import androidx.lifecycle.ViewModelProvider
 import com.emiliaasy.bangkit.capstone.R
-import com.emiliaasy.bangkit.capstone.StageActivity
+import com.emiliaasy.bangkit.capstone.stage1.StageActivity
 import com.emiliaasy.bangkit.capstone.WelcomeActivity
 import com.emiliaasy.bangkit.capstone.databinding.ActivityHouseBinding
 import com.emiliaasy.bangkit.capstone.dialog.ExitDialogActivity

@@ -62,7 +62,7 @@
             android:exported="false"
             android:theme="@style/Theme.Dialog" />
         <activity
-            android:name=".ExplanationActivity"
+            android:name=".stage1.ExplanationActivity"
             android:exported="false" />
         <activity
             android:name=".result.CorrectResultActivity"
@@ -71,10 +71,10 @@
             android:name=".capture.CaptureActivity"
             android:exported="false" />
         <activity
-            android:name=".NarrationActivity"
+            android:name=".stage1.NarrationActivity"
             android:exported="false" />
         <activity
-            android:name=".StageActivity"
+            android:name=".stage1.StageActivity"
             android:exported="false" />
         <activity
             android:name=".subcategory.HouseActivity"
