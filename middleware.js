@@ -14,7 +14,7 @@ const requireAuth = function(req, res, next) {
             }
         })
     } else {
-        res.status('401').send("Please login first");
+        res.status(401).send("Please login first");
     }
 }
 

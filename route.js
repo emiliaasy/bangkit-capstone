@@ -19,5 +19,5 @@ router.get("/alluser", requireAuth, getAllUsers)
 router.get("/user/:id", requireAuth, getUserById)
 router.put("/user/:id", requireAuth, updateUser)
 router.delete("/user/:id", requireAuth, removeUser)
-router.post("/login", requireAuth, loginUser)
+router.post("/login", loginUser)
 module.exports = router
