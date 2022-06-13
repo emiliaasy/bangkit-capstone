@@ -1,7 +1,7 @@
 
 const User = require('./model/user')
 const firestore = require('./db');
-const jwt = require('JsonWebToken')
+const jwt = require('jsonwebtoken')
 
 const addUser = async (req, res, next) => {
 	try {
