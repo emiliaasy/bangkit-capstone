@@ -1,4 +1,4 @@
-#MACHINE LEARNING
+# MACHINE LEARNING
 
 ## INTRODUCTION
 
@@ -30,9 +30,9 @@ Here are the library that used in this project.
 Furniture dataset collected from https://www.kaggle.com/competitions/day-3-kaggle-competition/data. We only took 3 of 5 data, namely bed, chair, and table.
 The distribution as follows :
 
--Bed folder contains 1,100 images.
--Chair folder contains 1,627 images
--Table folder contains 1296 images.
+- Bed folder contains 1,100 images.
+- Chair folder contains 1,627 images
+- Table folder contains 1296 images.
 
 ### Technologies
 - Python 3.7.13
