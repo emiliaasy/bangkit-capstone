@@ -1,6 +1,5 @@
 # Cloud Computing
-﻿# Cloud Computing
- ## API 
+## API 
 The API that we use functions as a login and register for the application, so users can create an account to play this game.
 
 ## How To Run
