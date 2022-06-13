@@ -24,7 +24,7 @@ We use Convolutional Neural Network and the base model from the mobilenet v2 pre
 
 ### Launch
 
-https://colab.research.google.com/drive/1cxH6KEvanCQ1KYBUF-j412kkVBwtBeFF?authuser=2#scrollTo=lGziEno0LAZH
+https://colab.research.google.com/drive/1cxH6KEvanCQ1KYBUF-j412kkVBwtBeFF
 
 ## 2. Furniture Image Classification 
 
